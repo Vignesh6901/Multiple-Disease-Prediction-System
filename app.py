@@ -52,7 +52,7 @@ if selected == 'Diabetes Prediction':
         diab_pred = diabetes_model.predict([[Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin,
                                              BMI, DiabetesPedigreeFunction, Age]])
 
-        if diab_pred == 1:
+        if diab_pred[0] == 1:
             diab_dignosis = 'The person is Diabetic'
         else:
             diab_dignosis = 'The person is Not Diabetic'
