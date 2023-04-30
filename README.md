@@ -2,7 +2,7 @@
 
 ---
 
-This project is a menu based multiple disease detection system which will detect if a person is suffering from a disease like diabetes, Heart Disease or Parkinson's disease by taking essential inputs.
+This project is a menu based multiple disease detection system using Machine Learning which will detect if a person is suffering from a disease like diabetes, Heart Disease or Parkinson's disease by taking essential inputs. Here, we have used SVM and Logistic Regression algorithm for classifying the diseases.
 
 #### Built with :
 
